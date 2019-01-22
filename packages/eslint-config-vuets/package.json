@@ -1,6 +1,6 @@
 {
 	"name": "@comon/eslint-config-vuets",
-	"version": "0.1.0",
+	"version": "0.1.2",
 	"description": "ESLint config for comOn projects that use Vue SFC & TS.",
 	"repository": "https://github.com/comongroup/lint-utils",
 	"license": "ISC",
@@ -8,7 +8,7 @@
 	"files": [
 		"index.js"
 	],
-	"devDependencies": {
+	"dependencies": {
 		"@typescript-eslint/eslint-plugin": "^1.0.0",
 		"@typescript-eslint/parser": "^1.0.0",
 		"babel-eslint": "^10.0.1",
@@ -19,6 +19,7 @@
 		"eslint-plugin-promise": "^4.0.1",
 		"eslint-plugin-standard": "^4.0.0",
 		"eslint-plugin-vue": "^5.1.0",
+		"tslint": "^5.12.1",
 		"typescript": "^3.2.4"
 	},
 	"peerDependencies": {
