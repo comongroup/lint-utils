@@ -5,7 +5,6 @@ module.exports = {
 	],
 	rules: {
 		'block-closing-brace-space-before': 'always-single-line',
-		'block-closing-brace-space-after': 'always-single-line',
 		'block-opening-brace-space-before': 'always',
 		'block-opening-brace-space-after': 'always-single-line',
 		'declaration-colon-space-after': 'always-single-line',

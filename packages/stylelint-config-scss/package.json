@@ -1,6 +1,6 @@
 {
 	"name": "@comon/stylelint-config-scss",
-	"version": "0.1.5",
+	"version": "0.1.6",
 	"description": "Stylelint config for comOn projects that use SCSS.",
 	"repository": "https://github.com/comongroup/lint-utils",
 	"license": "ISC",
