@@ -24,9 +24,10 @@ module.exports = {
 		'no-extra-semi': 'error',
 		'no-tabs': 'off',
 		'semi': ['error', 'always'],
-		'space-infix-ops': ['error'],
 		'space-before-blocks': 'error',
 		'space-before-function-paren': ['error', 'never'],
+		'space-infix-ops': 'error',
+		'space-unary-ops': 'error',
 
 		// general TS rules
 		'@typescript-eslint/adjacent-overload-signatures': 'error',
