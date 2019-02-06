@@ -1,6 +1,6 @@
 {
 	"name": "@comon/eslint-config-vuets",
-	"version": "0.1.6",
+	"version": "0.1.7",
 	"description": "ESLint config for comOn projects that use Vue SFC & TS.",
 	"repository": "https://github.com/comongroup/lint-utils",
 	"license": "ISC",

@@ -22,7 +22,7 @@ module.exports = {
 		'indent': ['error', 'tab', { 'SwitchCase': 1 }],
 		'max-len': ['warn', 140],
 		'no-extra-semi': 'error',
-		'no-unused-vars': 'error',
+		// 'no-unused-vars': 'error',
 		'no-tabs': 'off',
 		'semi': ['error', 'always'],
 		'space-before-blocks': 'error',
@@ -60,10 +60,17 @@ module.exports = {
 
 		// vue-cli config rules
 		'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-		'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off'
+		'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+
+		// disabling 'no-unused-vars' because it's interfering
+		// with interface/type imports in Typescript
+		// https://github.com/eslint/typescript-eslint-parser/issues/223
+		// https://github.com/typescript-eslint/typescript-eslint/issues/46
+		'no-unused-vars': 'off'
 	},
 	parserOptions: {
-		parser: '@typescript-eslint/parser'
+		parser: '@typescript-eslint/parser',
+		warnOnUnsupportedTypeScriptVersion: false // TODO: remove this soon
 	},
 	plugins: [
 		'@typescript-eslint'
