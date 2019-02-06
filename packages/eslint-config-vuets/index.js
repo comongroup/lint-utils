@@ -22,6 +22,7 @@ module.exports = {
 		'indent': ['error', 'tab', { 'SwitchCase': 1 }],
 		'max-len': ['warn', 140],
 		'no-extra-semi': 'error',
+		'no-unused-vars': 'error',
 		'no-tabs': 'off',
 		'semi': ['error', 'always'],
 		'space-before-blocks': 'error',
@@ -59,18 +60,7 @@ module.exports = {
 
 		// vue-cli config rules
 		'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-		'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-		// https://github.com/eslint/typescript-eslint-parser#known-issues
-		'no-undef': 'off',
-		'no-unused-vars': 'off',
-		// https://github.com/eslint/typescript-eslint-parser/issues/445
-		// 'typescript/no-unused-vars': 'error',
-		// https://github.com/vuejs/vue-cli/issues/1672
-		'space-infix-ops': 'off',
-		// temporary fix for https://github.com/vuejs/vue-cli/issues/1922
-		// very strange as somehow this rule gets different behaviors depending
-		// on the presence of typescript-eslint-parser...
-		'strict': 'off'
+		'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off'
 	},
 	parserOptions: {
 		parser: '@typescript-eslint/parser'
