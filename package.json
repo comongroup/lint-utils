@@ -1,6 +1,6 @@
 {
 	"name": "@comon/lint-utils",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"description": "Utils for all of comOn's projects.",
 	"repository": "https://github.com/comongroup/lint-utils",
 	"license": "ISC"
