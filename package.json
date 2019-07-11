@@ -1,7 +1,10 @@
 {
 	"name": "@comon/lint-utils",
-	"version": "0.3.0",
+	"version": "0.4.0",
 	"description": "Utils for all of comOn's projects.",
 	"repository": "https://github.com/comongroup/lint-utils",
-	"license": "ISC"
+	"license": "ISC",
+	"scripts": {
+		"ia": "cd packages/eslint-config-vuets && npm i && cd ../stylelint-config-scss && npm i"
+	}
 }
