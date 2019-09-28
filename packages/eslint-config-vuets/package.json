@@ -1,6 +1,6 @@
 {
 	"name": "@comon/eslint-config-vuets",
-	"version": "0.4.1",
+	"version": "0.5.1",
 	"description": "ESLint config for comOn projects that use Vue SFC & TS.",
 	"repository": "https://github.com/comongroup/lint-utils",
 	"license": "ISC",
@@ -9,21 +9,21 @@
 		"index.js"
 	],
 	"dependencies": {
-		"@typescript-eslint/eslint-plugin": "^1.11.0",
-		"@typescript-eslint/parser": "^1.11.0",
-		"babel-eslint": "^10.0.2",
-		"eslint": "^6.0.1",
-		"eslint-config-standard": "^13.0.0",
-		"eslint-plugin-import": "^2.18.0",
-		"eslint-plugin-node": "^9.1.0",
+		"@typescript-eslint/eslint-plugin": "^2.3.1",
+		"@typescript-eslint/parser": "^2.3.1",
+		"babel-eslint": "^10.0.3",
+		"eslint": "^6.4.0",
+		"eslint-config-standard": "^14.1.0",
+		"eslint-plugin-import": "^2.18.2",
+		"eslint-plugin-node": "^10.0.0",
 		"eslint-plugin-promise": "^4.2.1",
-		"eslint-plugin-standard": "^4.0.0",
+		"eslint-plugin-standard": "^4.0.1",
 		"eslint-plugin-vue": "^5.2.3",
-		"tslint": "^5.18.0",
-		"typescript": "^3.4.3"
+		"tslint": "^5.20.0",
+		"typescript": "^3.6.3"
 	},
 	"peerDependencies": {
-		"eslint": "^6.0.1",
-		"tslint": "^5.18.0"
+		"eslint": "^6.4.0",
+		"tslint": "^5.20.0"
 	}
 }

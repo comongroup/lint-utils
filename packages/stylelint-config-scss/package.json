@@ -1,6 +1,6 @@
 {
 	"name": "@comon/stylelint-config-scss",
-	"version": "0.4.0",
+	"version": "0.5.0",
 	"description": "Stylelint config for comOn projects that use SCSS.",
 	"repository": "https://github.com/comongroup/lint-utils",
 	"license": "ISC",
@@ -10,11 +10,11 @@
 		"stylelint.config.js"
 	],
 	"dependencies": {
-		"stylelint": "^10.1.0",
-		"stylelint-config-recommended-scss": "^3.3.0",
-		"stylelint-scss": "^3.9.1"
+		"stylelint": "^11.0.0",
+		"stylelint-config-recommended-scss": "^4.0.0",
+		"stylelint-scss": "^3.11.1"
 	},
 	"peerDependencies": {
-		"stylelint": "^10.1.0"
+		"stylelint": "^11.0.0"
 	}
 }
